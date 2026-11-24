@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cafe Blu | Reviews</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-4.0.0.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="assets/images/blu-logo-v1.svg" alt="Cafe Blu logo">
+            </a>
+            <nav id="main-nav">
+                <a href="about.html">About</a>
+                <a href="menu.html">Menu</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+                <a href="reviews.html" class="active">Reviews</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container page-header-content">
+                <h1>Guest Reviews</h1>
+                <p>What Visitors Says About Us</p>
+            </div>
+        </section>
+
+        <section class="reviews-section">
+            <div class="container">
+                <div class="reviews-grid">
+                    <article class="review-card">
+                        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <p class="review-quote">&ldquo;Ang galing&rdquo;</p>
+                        <div class="review-author">
+                            <h3>Gio Omg</h3>
+                            <span>First Time Guest &bull; October 2026</span>
+                        </div>
+                    </article>
+
+                    <article class="review-card">
+                        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <p class="review-quote">&ldquo;Ganda ng view here. Pwede nang mangarap.&rdquo;</p>
+                        <div class="review-author">
+                            <h3>Myca Gaingarud</h3>
+                            <span>Weekend Visitor from Manila &bull; November 2026</span>
+                        </div>
+                    </article>
+
+                    <article class="review-card">
+                        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <p class="review-quote">&ldquo;So good I might write an original song about it!&rdquo;</p>
+                        <div class="review-author">
+                            <h3>Jelly Langka</h3>
+                            <span>Regular Customer &bull; November 2026</span>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="reviews-form-wrap">
+                    <form id="review-form" class="custom-form">
+                        <fieldset>
+                            <legend>Leave Your Review</legend>
+                            <div class="reviews-form-row">
+                                <div class="form-group">
+                                    <label for="review-name">Your Full Name</label>
+                                    <input type="text" id="review-name" name="name" required placeholder="e.g. Jensen">
+                                </div>
+                                <div class="form-group">
+                                    <label for="review-rating">Rating</label>
+                                    <select id="review-rating" name="rating" required>
+                                        <option value="5">&#9733;&#9733;&#9733;&#9733;&#9733; (5/5 &ndash; Outstanding)</option>
+                                        <option value="4">&#9733;&#9733;&#9733;&#9733;&#9734; (4/5 &ndash; Very Good)</option>
+                                        <option value="3">&#9733;&#9733;&#9733;&#9734;&#9734; (3/5 &ndash; Average)</option>
+                                        <option value="2">&#9733;&#9733;&#9734;&#9734;&#9734; (2/5 &ndash; Fair)</option>
+                                        <option value="1">&#9733;&#9734;&#9734;&#9734;&#9734; (1/5 &ndash; Poor)</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="review-message">Your Experience & Favorite Order</label>
+                                <textarea id="review-message" name="message" rows="4" required placeholder="Tell us about the coffee, bagels, or atmosphere..."></textarea>
+                            </div>
+
+                            <button type="submit" class="button button-2 reviews-submit-button">Submit Review</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <a href="index.html" class="footer-brand">
+                    <img src="assets/images/blu-logo-v3.svg" alt="Cafe Blu logo">
+                </a>
+
+                <ul class="footer-links">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                </ul>
+            </div>
+
+            < class="footer-bottom">
+                <p>&copy; 2026 Cafe Blu &mdash; 244 Waterfront Rd, Subic Bay Freeport Zone &bull; Bakery & Coffee: Open 24/7</p>
+                <p class="footer-credits">Image Sources: <a href="https://www.facebook.com/TheBluCafe" target="_blank">Facebook</a> &bull; <a href="https://maps.google.com/?q=244+Waterfront+Rd,+Subic+Bay+Freeport+Zone" target="_blank">Google Maps</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
